@@ -16,6 +16,9 @@ int main() {
     string line; cin >> line;
     vector<string> ar = split(line, ',');
 
+    // set is needed here because now we can have duplicates like
+    // 2 repeated 4 times = 2222 and 22 repeated 2 times = 2222
+
     set<long long> invalid;
 
     for (int i = 1; i < 1e5; i++) {
