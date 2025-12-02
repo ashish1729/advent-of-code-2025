@@ -11,6 +11,7 @@ vector<string> split(string& s, char sep = ' ') {
     ans.push_back(curr);
     return ans;
 }
+
 int main() {
     string line; cin >> line;
     vector<string> ar = split(line, ',');
