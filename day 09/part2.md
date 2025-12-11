@@ -1,3 +1,11 @@
+- not a general solution but hacky to work for my input
+- in the end there is `p5.js` snippet which plots the polygon for my cases
+    - the cordinates in that code are compressed
+- I made few assumptions
+    - valid rect will be inside polygon and it will not have any red inside the boundary (on boundary is OK)
+    - second assumption is largest rect will not cross that line in between ( see the plot )
+
+
 ```cpp
 
 #include <bits/stdc++.h>
